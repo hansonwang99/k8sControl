@@ -9,7 +9,7 @@ import io.fabric8.kubernetes.client.KubernetesClient;
 public class K8sConnection {
 
     private static String namespace = "default";
-    private static String master = "http://192.169.31.166:8080/"; // k8s集群的主节点地址
+    private static String master = "http://192.168.31.166:8080/"; // k8s集群的主节点地址
     private static Config config = new ConfigBuilder().withMasterUrl(master)
             .withTrustCerts(true)
             .withNamespace(namespace).build();
