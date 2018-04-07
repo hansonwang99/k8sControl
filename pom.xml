@@ -11,6 +11,7 @@
 	<name>k8sresctrl</name>
 	<description>k8sresctrl</description>
 
+
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
