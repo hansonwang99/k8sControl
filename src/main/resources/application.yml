@@ -1,0 +1,9 @@
+endpoints:
+  sensitive: false
+
+spring:
+  boot:
+    admin:
+      url: http://localhost:8081
+      client:
+        name: AdminTest
